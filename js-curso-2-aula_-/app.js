@@ -6,7 +6,7 @@
  //paragrafo.innerHTML = 'ESCOLHA UM NUMERO DE 1 A 10';
  
  let listaDeNumerosSorteados = [];
- let numeroLimite = 8;
+ let numeroLimite = 7;
  let numeroSecreto =gerarNumeroAleatorio(); 
  let tentativas = 1;
 
@@ -18,7 +18,7 @@ responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 function exibirMensagemInicial() {
 exibirTextoNaTela('h1' , 'jogo do numero secreto');
-exibirTextoNaTela('p' , 'escola um numero de 1 a 8');
+exibirTextoNaTela('p' , 'escola um numero de 1 a 7');
 
 }
 
